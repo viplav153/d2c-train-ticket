@@ -176,7 +176,7 @@ app.get('/reset',async(req,res)=>//just in case if want to reset seat
     });
     if(flag==0)//seats was not created previously in database
     {
-        make_obj()
+        await make_obj()
     }
     await reset_schema()
     await sleep(200);
