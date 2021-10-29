@@ -2,7 +2,6 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [Next.js](https://nextjs.org/)
 * [express.js](https://expressjs.com/)
@@ -14,10 +13,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## About
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is a node.js web application, which use best fit and next fit algo for booking seats in a train car of 80 seats, Each row have 7 seats and user cannot book more than 7 ticket at a time . For database I had used monogodb and created object of each row and object of each seats under row.
 
 ### Prerequisites
 
@@ -41,3 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Browse project at
+* [Train ticket_booking](https://train-ticket-d2c.herokuapp.com/)
