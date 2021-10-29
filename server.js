@@ -6,19 +6,19 @@ const ticketRouter= require('./routes/booking')
 const app =express()
 
 //database config
-const PORT = process.env.PORT || 5000; // Step 1
+const port=process.env.PORT || 5000
 // Step 2
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/ticket', {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    
 })
-
 
 
 app.set('view engine','ejs')
 app.use(express.urlencoded({extended:false}))
 app.use(methodOverride('_method'))
-const port=process.env.PORT || 5000
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
