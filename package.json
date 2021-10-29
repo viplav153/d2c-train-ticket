@@ -8,9 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon server.js"
   },
-  "engines":{
-      "node":"16.6.2"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {

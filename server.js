@@ -7,9 +7,14 @@ const app =express()
 
 //database config
 const PORT = process.env.PORT || 5000; // Step 1
+// Step 2
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/ticket', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
 
 
-mongoose.connect('mongodb://localhost/ticket',{useNewUrlParser : true, useUnifiedTopology:true})
+
 app.set('view engine','ejs')
 app.use(express.urlencoded({extended:false}))
 app.use(methodOverride('_method'))
