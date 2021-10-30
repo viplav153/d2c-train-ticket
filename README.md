@@ -3,7 +3,7 @@
 ### Built With
 
 
-* [Next.js](https://nextjs.org/)
+* [Node.js](https://nextjs.org/)
 * [express.js](https://expressjs.com/)
 * [Mongodb](https://www.mongodb.com/)
 
